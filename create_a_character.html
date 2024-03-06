@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a character</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <img src="logo2.png" id="menupic" alt="" />
+      <p>
+        <a href="create_a_character.html" target="_blank">Character Creator</a>
+      </p>
+      <p>
+        <a href="my_characters.html" target="_blank">My characters</a>
+      </p>
+      <p><a href="encyclopedia.html" target="_blank">Encyclopedia</a></p>
+    </div>
+    <h1>Character Creator</h1>
+    <div>
+      <form>
+        <label for="name">Input your name</label>
+        <input type="text" id="name" />
+        <br />
+        <label for="race">Choose your race</label>
+        <select name="race" id="race">
+          <option value="choose race">Choose your race</option>
+          <option value="dragonborn">Dragonborn</option>
+          <option value="dwarf">Dwarf</option>
+          <option value="elf">Elf</option>
+          <option value="gnome">Gnome</option>
+          <option value="half-elf">Half-elf</option>
+          <option value="halfling">Halfling</option>
+          <option value="half-orc">Half-orc</option>
+          <option value="human">Human</option>
+          <option value="tiefling">Tiefling</option>
+          <option value="triton">Triton</option>
+          <option value="warforged">Warforged</option>
+          <option value="goliath">Goliath</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label>Input your Strength</label>
+        <input type="number" id="str_score" />
+        <label>Input your Dexterity</label>
+        <input type="number" id="dex_score" />
+        <label>Input your Constitution</label>
+        <input type="number" id="con_score" />
+        <br />
+        <br />
+        <label>Input your Intelligence</label>
+        <input type="number" id="int_score" />
+        <label>Input your Wisdom</label>
+        <input type="number" id="wis_score" />
+        <label>Input your Charisma</label>
+        <input type="number" id="cha_score" />
+
+        <br />
+        <br />
+
+        <label for="class">Choose your class</label>
+        <select name="class" id="class">
+          <option value="choose class">Choose your class</option>
+          <option value="barbarian">Barbarian</option>
+          <option value="bard">Bard</option>
+          <option value="cleric">Cleric</option>
+          <option value="druid">Druid</option>
+          <option value="fighter">Fighter</option>
+          <option value="monk">Monk</option>
+          <option value="paladin">Paladin</option>
+          <option value="ranger">Ranger</option>
+          <option value="rogue">Rogue</option>
+          <option value="sorcerer">Sorcerer</option>
+          <option value="warlock">Warlock</option>
+          <option value="wizard">Wiazrd</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="level">Choose your level</label>
+        <select name="level" id="level">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+        </select>
+        <br />
+        <label for="hp">Input your rolled hp</label>
+        <input type="number" id="hp" />
+      </form>
+    </div>
+  </body>
+  <script src="character.js"></script>
+</html>
