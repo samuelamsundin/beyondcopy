@@ -20,3 +20,17 @@ body {
   height: 50px;
   width: 50px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
