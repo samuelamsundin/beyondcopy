@@ -10,18 +10,19 @@
     <div id="menu">
       <img src="logo2.png" id="menupic" alt="" />
       <p>
-        <a href="create_a_character.html" target="_blank">Character Creator</a>
+        <a href="create_a_character.html">Character Creator</a>
       </p>
       <p>
-        <a href="my_characters.html" target="_blank">My characters</a>
+        <a href="my_characters.html">My characters</a>
       </p>
-      <p><a href="encyclopedia.html" target="_blank">Encyclopedia</a></p>
+      <p><a href="encyclopedia.html">Encyclopedia</a></p>
     </div>
     <h1>Character Creator</h1>
     <div>
       <form>
         <label for="name">Input your name</label>
         <input type="text" id="name" />
+        <br />
         <br />
         <label for="race">Choose your race</label>
         <select name="race" id="race">
@@ -78,6 +79,110 @@
           <option value="wizard">Wiazrd</option>
         </select>
 
+        //Skapar alla önskade subclasses. //Barbarian
+        <label for="subclass" class="primal_paths"
+          >Choose your Primal Path</label
+        >
+        <select name="subclass" class="primal_paths">
+          <option value="none">-</option>
+          <option value="path_of_the_beserker">Path of the Beserker</option>
+          <option value="path_of_the_totem_warrior">
+            Path of the Totem Warrior
+          </option>
+          <option value="path_of_the_ancestral_guardian">
+            Path of the Ancestral Guardian
+          </option>
+        </select>
+
+        //Bard
+        <label for="subclass" class="colleges">Choose your College</label>
+        <select name="subclass" id="colleges">
+          <option value="none">-</option>
+          <option value="lore">College of Lore</option>
+          <option value="valor">College of Valor</option>
+          <option value="creation">College of creation</option>
+        </select>
+
+        //Cleric
+        <label for="subclass" class="domains">Choose your Domain</label>
+        <select name="subclass" id="domains">
+          <option value="none">-</option>
+          <option value="light">Light Domain</option>
+          <option value="trickery">Trickery Domain</option>
+          <option value="war">War Domain</option>
+        </select>
+
+        //Druid
+        <label for="subclass" class="circles">Choose your Druidic Circle</label>
+        <select name="subclass" class="circles">
+          <option value="none">-</option>
+          <option value="land">Circle of the Land</option>
+          <option value="moon">Cirlce of the Moon</option>
+          <option value="spores">Circle of Spores</option>
+        </select>
+
+        //Fighter
+        <label for="subclass" class="martial_archetypes"
+          >Choose your Martial Archetype</label
+        >
+        <select name="subclass" class="martial_archetypes">
+          <option value="none">-</option>
+          <option value="gunslinger">Gunslinger</option>
+          <option value="eldritch_knight">Eldritch Knight</option>
+          <option value="battle_master">Battle Master</option>
+        </select>
+
+        //Monk
+        <label for="subclass" class="monastic_traditions"
+          >Choose your Monastic Tradition</label
+        >
+        <select name="subclass" id="monastic_traditions">
+          <option value="none">-</option>
+          <option value="open_hand">Way of the Open Hand</option>
+          <option value="sun_soul">Way of the Sun Soul</option>
+          <option value="ascendant_dragon">Way of the Ascendant Dragon</option>
+        </select>
+
+        //Paladin
+        <label for="subclass" class="oaths">Choose your Oath</label>
+        <select name="subclass" class="oaths">
+          <option value="none">-</option>
+          <option value="devotion">Oath of Devotion</option>
+          <option value="vengeance">Oath of Vengeance</option>
+          <option value="oathbreaker">Oathbreaker</option>
+        </select>
+
+        //Ranger
+        <label for="subclass" class="ranger_archetypes"
+          >Choose your Ranger Archetype</label
+        >
+        <select name="subclass" class="ranger_archetypes">
+          <option value="none">-</option>
+          <option value="beast_master">Beast Master</option>
+          <option value="hunter">Hunter</option>
+          <option value="gloom_stalker">Gloom Stalker</option>
+        </select>
+
+        //Rogue
+        <label for="subclass" class="roguish_archetype"
+          >Choose your Roguish Archetype</label
+        >
+        <select name="subclass" class="roguish_archetype">
+          <option value="none">-</option>
+          <option value="assassin">Assassin</option>
+          <option value="inqusitive">Inqusitive</option>
+          <option value="thief">Thief</option>
+        </select>
+
+        //Sorcerer
+        <label for="subclass" class="sorcerous_origin"
+          >Choose your Sorcerous Origin</label
+        >
+        <select name="subclass" class="sorcerous_origin">
+          <option value="none">-</option>
+          <option value="draconic_bloodline">Draconic Bloodline</option>
+        </select>
+
         <br />
         <br />
 
@@ -104,6 +209,7 @@
           <option value="19">19</option>
           <option value="20">20</option>
         </select>
+        <br />
         <br />
         <label for="hp">Input your rolled hp</label>
         <input type="number" id="hp" />
